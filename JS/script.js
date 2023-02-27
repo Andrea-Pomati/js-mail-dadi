@@ -39,7 +39,20 @@ let inputEmail = document.getElementById("_input-email")
 //imposto l'array con la lista di email
 let emailList = ["mario@gmail.com", "paolo@gmail.com", "luca@gmail.com"]
 
+//variabile che è uguale al valore insierito nell'inputEmail
+let emailValue = inputEmail.value
 
 
+//imposto variabile che è di default falsa
+let emailvalidator = false
 
 
+for(let i = 0; i < emailList.length; i++) {
+    if (emailValue = emailList[i])
+    emailvalidator = true
+    }
+    
+    
+  
+  
+  
