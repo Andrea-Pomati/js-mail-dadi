@@ -2,6 +2,11 @@
 Chiedi all’utente la sua email,
 controlla che sia nella lista di chi può accedere,
 stampa un messaggio appropriato sull’esito del controllo.
+sappiamo che esiste il metodo .includes() per trovare subito 
+l'occorrenza di un elemento all'interno di un array
+ma vi chiediamo di realizzare una soluzione alternativa 
+ad hoc che faccia forza dell'utilizzo del ciclo
+
 Gioco dei dadi
 Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 Stabilire il vincitore, in base a chi fa il punteggio più alto.
@@ -19,5 +24,21 @@ Buon lavoro e buon divertimento! :faccia_leggermente_sorridente:
 
 */
 
+//MAIL
 
-//pseudo-codice
+//pseudo-codice:
+//- Creo un div che utilizzerò come input per inserire la mail
+//- creo un array con all'interno delle mail
+//- se l'indirizzo inserito è presente nell'array stampo in pagina il testo
+// - stampo un messaggio di esito del controllo
+
+
+//creo variabile  assegno  prendihtml. da html cerca l'id  (id) 
+let inputEmail = document.getElementById("_input-email")
+
+let emailList = ["mario@gmail.com", "paolo@gmail.com", "luca@gmail.com"]
+//imposto l'array con la lista di email
+
+console.log(emailList)
+
+
