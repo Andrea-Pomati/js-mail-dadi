@@ -36,9 +36,10 @@ Buon lavoro e buon divertimento! :faccia_leggermente_sorridente:
 //creo variabile  assegno  prendihtml. da html cerca l'id  (id) 
 let inputEmail = document.getElementById("_input-email")
 
-let emailList = ["mario@gmail.com", "paolo@gmail.com", "luca@gmail.com"]
 //imposto l'array con la lista di email
+let emailList = ["mario@gmail.com", "paolo@gmail.com", "luca@gmail.com"]
 
-console.log(emailList)
+
+
 
 
