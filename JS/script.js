@@ -62,7 +62,7 @@ let userEmailButtonElement = document.getElementById('userEmailButton');
 let loginOutputElement = document.getElementById("loginOutput");
 
 // - preparare una lista di email di registrazione
-const acceptedEmails = ['gabriel@email.com', 'edoardo@email.com', 'alice@email.com', 'danilo@email.com'];
+const acceptedEmails = ['paolo@email.com', 'mario@email.com', 'luca@email.com', 'roberto@email.com'];
 
 
 // aggiungo l'event listener del click al pulsante
